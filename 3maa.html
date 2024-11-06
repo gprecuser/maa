@@ -1,0 +1,136 @@
+<html>
+ <head>
+ <title>Registration form</title>
+ <style>
+ input,textarea{
+ background-color:#4d79ff;
+ border:1.5px solid black;
+ }
+ .required::after{
+ content:"*";
+ color:red;
+ font-size:20px;
+ }
+ </style>
+ </head>
+ <body>
+<br>
+ <p>Dear student,<br>Please fill the following application for fresher’s job</p>
+<br>
+ <form action="thankyou.html" method="post">
+ <label for="f" class="required"><b>Name of the applicant</b></label><span><b>:</b></span>
+ <input type="text" id="f" name="f" style="width:25%" required>
+ <br>
+ <br>
+ <label for="g" class="required"><b>Are you the resident of India</b></label><span><b>:</b></label>
+ <input type="radio" id="g" name="g" required>Yes</input>
+ <input type="radio" id="g" name="g" required>No</input>
+ <br>
+<br>
+ <label for="h" class="required"><b>Application 
+state</b></label><span><b>:</b><span>
+ <select id="h" name="h" required>
+ <option></option>
+ <option>Andhra Pradesh</option>
+ <option>Telangana</option>
+ <option>Tamil Nadu</option>
+ <option>Kerala</option>
+ <option>Karnataka</option>
+ <option>Maharastra</option>
+ <option>Delhi</option>
+ <option>West Bengal</option>
+ </select>
+<br>
+<br>
+ <label for="i" class="required"><b>Your degree</b></label><span><b>:</b><span>
+ <select id="i" name="i" required>
+ <option></option>
+<option>B.E</option>
+<option>B.Tech</option>
+<option>B.Sc</option>
+<option>B.Ed</option>
+<option>B.Com</option>
+</select>
+<br>
+<br>
+<label for="j" class="required"><b>Year of graduation</b></label><span><b>:</b><span>
+ <select id="j" name="j" required>
+ <option></option>
+<option>2023</option>
+<option>2024</option>
+<option>2025</option>
+<option>2026</option>
+<option>2027</option>
+</select>
+<br>
+<br>
+<label for="k" class="required"><b>Have you done Post Graduate</b></label><span><b>:</b></span>
+ <input type="radio" id="k" name="k" required>Yes</input>
+ <input type="radio" id="k" name="k" required>No</input>
+ <br>
+<br>
+<label for="per" class="required"><b>Your graduation percentage</b></label><span><b>:</b></span>
+ <input type="text" id="per" name="per" style="width:25%" required>
+ <br>
+ <br>
+<label for="col" class="required"><b>Name of the College</b></label><span><b>:</b></span>
+ <input type="text" id="col" name="col" style="width:25%" required>
+ <br>
+ <br>
+<label for="t"><b>Your strengths:</b></label>
+ <textarea rows="5" cols="40" id="t"></textarea>
+ <br>
+ <br>
+<label><b>Key Skills:</b></label>
+ <input type="checkbox" id="g" name="g">C</input>
+ <input type="checkbox" id="g" name="g">Python</input>
+ <input type="checkbox" id="g" name="g">Java</input>
+ <input type="checkbox" id="g" name="g">SQL</input>
+ <input type="checkbox" id="g" name="g">HTML</input>
+ <br>
+<br>
+<label for="mail" class="required"><b>Your email id</b></label><span><b>:</b></span>
+ <input type="email" id="mail" name="mail" style="width:25%" required>
+ <br>
+ <br>
+<label><b>Your mobile number:</b></label>
+ <input type="text" id="f" name="f" style="width:25%">
+ <br>
+ <br>
+<label for="dob" class="required"><b>Your Date of Birth</b></label><span><b>:</b></span>
+<input type="date" id="dob" name="dob" required></input>
+<br>
+<br>
+<label><b>Would you like to reallocate to any work in India:</b></label><span>(Yes/No)</span>
+<br>
+<br>
+<label><b>Your Linkedin url:</b></label>
+ <input type="url" id="f" name="f" style="width:25%">
+ <br>
+ <br>
+<label for="t"><b>Any professional certifications:</b></label>
+ <textarea rows="5" cols="40" id="t"></textarea>
+ <br>
+ <br>
+<label><b>Your HackerRank Rank:</b></label>
+ <input type="text" id="f" name="f" style="width:25%">
+ <br>
+ <br>
+<label><b>Your Codechef Rank:</b></label>
+ <input type="text" id="f" name="f" style="width:25%">
+ <br>
+ <br>
+ <br>
+ <label for='resume' class="required"><b>Upload your resume</b></label><span><b>:</b></span>
+ <input style='all:unset' type='file' id='resume' required><br><br>
+ <label for="image" class="required"><b>Insert Your Image</b></label><span><b>:</b></span>
+ <input style='all:unset' type='file' id='image' required>
+ <br>
+ <br>
+<input type="checkbox" id="declaration" name="declaration" required>
+ <label for="declaration">I declare that all the above details which I have provided are
+correct.</label><br><br>
+<button>Submit</button>
+</form>
+</body>
+</html>
